@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     default: "jxtdAuto",
     template: "%s | jxtdAuto",
   },
-  description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0.",
+  description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0",
   keywords: [
     "jxtdAuto",
     "Võ Lâm Truyền Kỳ 2.0",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     url: "/",
     title: "jxtdAuto",
-    description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0.",
+    description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0",
     siteName: "jxtdAuto",
     images: [
       {
