@@ -13,11 +13,11 @@ export default function CaiDatPage() {
                 </li>
                 <li>
                   <p className="font-medium text-foreground">Giải nén file auto</p>
-                  <p>Chuột phải lên file auto và chọn "Extract here" để giải nén.</p>
+                  <p>Chuột phải lên file auto và chọn &quot;Extract here&quot; để giải nén.</p>
                 </li>
                 <li>
                   <p className="font-medium text-foreground">Chạy auto</p>
-                  <p>Double click lên file <code className="rounded bg-muted px-1.5 py-0.5 text-sm">jxtdAuto.exe</code> để chạy auto. Chọn "Yes" nếu được hỏi.</p>
+                  <p>Double click lên file <code className="rounded bg-muted px-1.5 py-0.5 text-sm">jxtdAuto.exe</code> để chạy auto. Chọn &quot;Yes&quot; nếu được hỏi.</p>
                 </li>
               </ol>
           </div>

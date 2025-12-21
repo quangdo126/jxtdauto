@@ -11,7 +11,7 @@ export default function ChayTuDongPage() {
           <ol className="ml-6 list-decimal space-y-2 text-muted-foreground">
             <li>Đảm bảo game đã được mở và đăng nhập</li>
             <li>Chọn tính năng tự động muốn sử dụng</li>
-            <li>Nhấn nút "Bắt đầu"</li>
+            <li>Nhấn nút &quot;Bắt đầu&quot;</li>
             <li>Theo dõi log để kiểm tra hoạt động</li>
           </ol>
         </div>

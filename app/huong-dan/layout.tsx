@@ -135,6 +135,7 @@ export default function HuongDanLayout({
   useEffect(() => {
     const activeSection = getActiveSection()
     setExpandedSection(activeSection)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname])
 
   return (
