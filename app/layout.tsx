@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.com"),
   alternates: {
     canonical: "/",
   },
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     siteName: "jxtdAuto",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.vercel.app"}/og-image.png`,
+        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.com"}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "jxtdAuto - Auto cho Võ Lâm Truyền Kỳ 2.0",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "jxtdAuto",
     description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0",
-    images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.vercel.app"}/og-image.png`],
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.com"}/og-image.png`],
     creator: "@jxtdAuto", // Thay bằng Twitter handle thực tế nếu có
   },
   robots: {
