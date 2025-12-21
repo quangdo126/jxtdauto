@@ -1,0 +1,313 @@
+21/12/2025
+jxtdAuto 0.1.5++:
++ Sửa lỗi buff miệt mài
++ Sửa một số lỗi chia sẻ vật phẩm
++ Thêm tùy chọn chia sẽ vật phẩm nhiệm vụ (tab Tiện ích)
++ Thêm Bỏ qua bang hội (tab Đối thủ)
+
+20/12/2025
+jxtdAuto 0.1.5+:
++ Sửa lỗi không mua vật phẩm từ NPC
++ Hẹn giờ có thể bật/tắt riêng từng tác vụ
++ Trả lại tính năng 'Bảo vệ cừu sát'
++ Tính năng cho trang bị nhiệm vụ (hiện đang tự động, nếu không ổn sẽ đổi thành tùy chọn)
+Có sẵn thì cho ngay, không có nếu đi luyện công nhặt được thì đem về cho
++ Tính năng chia sẻ vật phẩm (tab Tiện ích):
+Chỉ chia sẻ khi nhân vật chia sẻ đang hoạt động ở tác vụ Luyện công hoặc không làm gì (không hoạt động ở Auto PK)
+
+17/12/2025
+jxtdAuto 0.1.5: (re-up)
++ Sửa lỗi giám định tàng bảo đồ
+
+17/12/2025
+jxtdAuto 0.1.5:
++ Thêm tính năng hẹn giờ làm nhiệm vụ (tab Tiện ích)
++ Tự vệ thêm tùy chọn chỉ đổi phe (màu) khi số đối tượng đồ sát >=, cấp >=, tránh trường hợp nhá màu :3
++ Thêm điều kiện sử dụng vật phẩm 'Trị PK10', 'Đánh Boss'
++ Ghép sách rèn (chỉ ghép nếu đủ 2000 mảnh trang bị trong hành trang)
++ Nhiệm vụ Mặc Thạch sẽ làm hết nhiệm vụ nếu là ngày chủ nhật (bỏ qua thiết lập số nhiệm vụ để lại)
++ Nhặt vật phẩm, thêm tùy chọn chi tiết hơn
++ Ưu tiên quái, bỏ qua quái theo ngũ hành (tab Đối thủ)
++ Thêm tùy chọn về thành khi hết Ngọc Lộ Hoàn (tab Luyện công)
++ Thêm mở túi thuốc (tab Tiện ích)
++ Sửa lỗi game đếm sai số client (tab)
++ Sửa một số lỗi khác
++ TẠM KHÓA TÍNH NĂNG "BẢO VỆ CỪU SÁT"
+
+14/12/2025
+jxtdAuto 0.1.5: (Cập nhật sau)
++ Thêm tính năng hẹn giờ làm nhiệm vụ (tab Tiện ích)
++ Tự vệ thêm tùy chọn chỉ đổi phe (màu) khi số đối tượng đồ sát >=, cấp >=, tránh trường hợp nhá màu :3
++ Thêm điều kiện sử dụng vật phẩm 'Trị PK10', 'Đánh Boss'
++ Ghép sách rèn
++ Nhiệm vụ Mặc Thạch sẽ làm hết nhiệm vụ nếu là ngày chủ nhật (bỏ qua thiết lập số nhiệm vụ để lại)
++ Nhặt vật phẩm, thêm tùy chọn chi tiết hơn
++ Ưu tiên quái, bỏ qua quái theo ngũ hành (tab Đối thủ)
++ Thêm tùy chọn về thành khi hết Ngọc Lộ Hoàn (tab Luyện công)
++ Sửa một số lỗi khác
+
+13/12/2025
+jxtdAuto: Cập nhật serverlist Vu Sơn
+
+10/12/2025
+jxtdAuto 0.1.4+:
++ Sửa lỗi lag hành trang: Click chuột phải
++ Sửa lỗi đối thoại NPC Lễ Quan
++ Thay đổi tính năng tự sử dụng vật phẩm, thêm điều kiện sử dụng vật phẩm
++ Sửa lỗi hiển thị Xu/Kim đỉnh
++ Sửa lỗi các map không liên thông như Dược Vương Động, Lưỡng Thủy Động, Vũ Di Sơn, ...
++ Không cần dùng gamecl để bỏ giới hạn client, giới hạn được nâng lên 24 cửa sổ game
+
+9/12/2025
+jxtdAuto 0.1.4+: (Cập nhật sau)
++ Nâng cấp thuật toán tìm đường, có thể xử lý các map phức tạp, không liên thông như Dược Vương Động, Lưỡng Thủy Động, Vũ Di Sơn
++ Định giá hàng loạt vật phẩm cùng loại trong hành trang
++ Hoa đăng sẽ phân chia tọa độ đèn, tránh tụ tập quá đông ở một đèn nào đó
++ Sửa một số lỗi nhỏ
+
+6/12/2025
+jxtdAuto 0.1.4:
++ Sửa lỗi auto không hoạt động ở một số map
++ Sửa lỗi mua trang bị môn phái
++ Tính năng bảo vệ trang bị: Trang bị có thuộc tính hiếm sẽ không thể rã, không thể bán, không thể vứt bỏ, không thể giao nộp.
+Để tạm thời bỏ qua tính năng bảo vệ, nhấn và giữ phím Shift khi đang thực hiện thao tác
++ Thêm tính năng rèn trang bị (tab Hành trang): Để mảnh trang bị trong túi và hành trang, bật tính năng ở khu vực phi chiến đấu.
+
+4/12/2025
+jxtdAuto 0.1.3++:
++ Sửa lỗi tổ đội
++ Sửa lỗi theo sau ở chế độ luyện công
++ Thêm cột Hiển thị 'Năng động'
++ Thêm hiển thị thông tin nhiệm vụ (tab Cơ bản)
++ Nhiệm vụ Mặc Thạch & Ngày sẽ mua trang bị ở phái (phái nào mua phái đó)
++ Mua thuốc + nhận thuốc miễn phí trong Tống Kim (tab Tự vệ/PK)
++ Tính năng năng động sẽ luôn làm nhiệm vụ Mặc Thạch, bất kể thiết lập số nhiệm vụ để dành là bao nhiêu.
++ Nhân vật theo sau sẽ theo sau nhân vật chính vào Tống Kim (nhưng chưa thể di chuyển ra ngoài)
++ Sửa một số lỗi nhỏ
+
+3/12/2025
+jxtdAuto 0.13++: (Cập nhật sau)
++ Sửa lỗi ngồi thiền, cắn hp khi chuyển map
++ Nhiệm vụ ngày đã có thể mua trang bị từ môn phái (phái nào mua phái đó)
++ Mua thuốc + nhận máu miễn phí trong Tống Kim
++ Mở túi thuốc (bao gồm Xích Hà Đơn và các loại túi thuốc khác)
++ Nhận thưởng thẻ tháng sẽ nhận khi về thành lần tiếp theo
+jxtdAuto 0.14: (Cập nhật sau)
++ Vẽ lại đường di chuyển các map hay bị kẹt như Nga Mi, Ngũ Độc, Đại Lý
++ Cải tiến thuật toán tìm đường để có thể xử lý các map không liên thông như Dược Vương Động...
+
+2/12/2025
+jxtdAuto 0.1.3+:
++ Nâng giới hạn số lượng nhân vật lên 24
++ Tinh chỉnh tính năng tổ đội, sẽ tự rời nhóm để vào tổ đội ưu tiên hơn
++ Sửa lỗi đôi khi không đổi màu khi bị đồ sát
++ Thêm tính năng tự động tổ đội khi ở chế độ Auto PK (tab Cơ bản)
++ Nhiệm vụ ngày <thu thập> sẽ thu thập nhiều vị trí thay vì 1 vị trí như trước đây
++ Sửa lỗi không nhận thưởng nhiệm vụ Mặc Thạch cuối, không reset khi qua tuần
++ Thêm tính năng ghi nhớ vật phẩm nhiệm vụ đã mua, tránh mua nhiều lần hay bị hệ thống lọc trang bị giữ lại
++ Nhận thưởng thẻ tháng sẽ về thành lưu rương (nếu có) để nhận
++ Thêm tính năng "Lập chiến đội", khi bạn không biết thiết lập như thế nào thì chỉ việc chọn tất cả acc trong 1 xe, và chọn "Lập chiến đội"
++ Đè phím Shift khi rã trang bị để bỏ qua chế độ bảo vệ của auto
++ Thêm thuộc tính lọc "Thời gian phục hồi (điểm) ẩn", "Thời gian phục hồi (điểm) hiện", và Giảm thời gian hiệu ứng (%) (Làm chậm, làm choáng, thời gian trúng độc)
++ Hạn sử dụng 10 ngày, tính từ 15h 02/12/2025
+
+29/11/2025
+jxtdAuto 0.1.3+: (Cập nhật sau)
++ Để rã trang bị, đè phím Shift khi rã
++ Thêm tính năng ghi nhớ vật phẩm nhiệm vụ đã mua, tránh mua lại nhiều lần
++ Tính năng tổ đội khi làm nhiệm vụ Ngày, Mặc Thạch: Tự lập tổ đội sau 1 - 3 phút, tự giải tán tổ đội trong 3 - 5 phút (nếu không có thành viên)
++ Tinh chỉnh tính năng tổ đội cho hợp lý hơn
+
+28/11/2025
+jxtdAuto 0.1.3:
++ Tách riêng TĐP theo máu (HP) hoặc mana (MP) (tab P. hồi)
++ SỬA LỖI LAG HÀNH TRANG
++ Sửa lỗi mua trang bị nhiệm vụ (Mặc Thạch & Ngày), có thể mua theo giá hợp lý hoặc rẻ nhất
++ Nhiệm vụ Ngày & Mặc Thạch đánh quái sẽ tự lập tổ đội, vào tổ đội, tự dọn hành trang
++ Thêm tác vụ Năng động (tab Cơ bản)
++ Thêm tiện ích Điểm danh, nhận thưởng năng động, nhận thưởng thẻ tháng, điều chỉnh âm lương (tab T. ích)
++ Hạn sử dụng: 10 ngày tính từ 16h 28/11/2025
+
+27/11/2025
+jxtdAuto 0.0.13: (Sẽ cập nhật sau)
++ Sửa lỗi lag hành trang
++ Sửa lỗi mua trang bị từ NPC nhưng không trả nhiệm vụ
++ Nhiệm vụ ngày & Mặc Thạch đánh quái sẽ tự lập tổ đội, xin vào nhóm
++ Thêm tab Tiện ích (T. ích)
++ Nhận thưởng thẻ tháng hằng ngày
++ Nhận thưởng năng động khi đạt mốc
++ Điểm danh khi đạt mốc
++ Thêm tác vụ "Năng Động", auto sẽ chạy lần lượt các tác vụ khác để lấy năng động
++ Điều chỉnh âm lượng cửa sổ game ngay trên auto
+
+21/11/2025
+jxtdAuto 0.1.2+++:
++ Sửa lỗi đôi khi auto không hoạt động
++ Không cho rã trang bị đã khóa bảo hiểm
+
+21/11/2025
+jxtdAuto 0.1.2++:
++ Thêm một số tiêu chí lọc trang bị(các bạn nhớ kiểm tra lại phần lọc trang bị)
++ Gửi tiền lên bang hội (tab Hành trang)
++ Nhân vật theo sau đã vào trong khoang thuyền Phong Lăng Độ
++ Thêm vật phẩm Thiên Sơn Bảo Lộ (Sơ) không khóa vào danh sách sử dụng vật phẩm
++ Thêm kỹ năng Sư Tử Hống của Thiếu Lâm
+
+11/11/2025
+jxtdAuto 0.1.2+:
++Cập nhật theo phiên bản game mới nhất
++Sửa lỗi không mua vũ khí nhiệm vụ trong shop NPC
++Sửa lỗi mua trang bị nhiệm vụ từ người chơi khác
++ gamecl.exe trong folder auto là gamecl.exe đã bỏ giới hạn 8 cửa sổ game/máy. Bạn nào cần thì update game lên rồi copy gamecl.exe qua nhé.
+Các bạn cập nhật game lên phiên bản mới nhất rồi dùng auto, không cần gamecl cũ.
+
+7/11/2025
+jxtdAuto 0.1.2:
++ Tinh chỉnh tính năng nhặt vật phẩm:
+Thêm tùy chọn Nhặt tất cả, Chỉ nhặt tiền, Chỉ nhặt vật phẩm
+Thêm danh sách vật phẩm đen (không nhặt)
++ Thêm tính năng Đố đèn thú vị (Hoa Đăng)
++ Tab Phục hồi
+Thêm tùy chọn TĐP khi MP <
+Thêm tùy chọn dùng bình máu khi PK
++ Sửa lỗi sai vị trí NPC trong nhiệm vụ ngày, môn phái
++ Thêm thuộc tính lọc đồ gộp Trang sức (nhẫn, dây chuyền, ngọc bội), Số ô (rộng x cao)
++ Gia hạn sử dụng đến ngày 18/11/2025
+
+2/11/2025
+jxtdAuto 0.1.1++:
++ Thêm tính năng ghép huyền tinh siêu nhanh (tab Hành trang)
++ Thêm tính năng ghép quà thần bí (tab Hành trang)
++ Sửa  lỗi nhiệm vụ Mặc Thạch, như mua đồ, tách vật phẩm
++ Sửa một số lỗi khác
+Để kích hoạt tính năng ghép huyền tinh, quà thần bí, các bạn đứng trong thành, tick vào tính năng (tab Hành trang), tab Cơ bản bỏ tick Auto PK.
+
+28/10/2025
+jxtdAuto 0.1.1+:
++ Vẫn dùng gamecl.exe cũ
++Gia hạn sử dụng đến ngày 07/11/2025
++ Cập nhật vị trí NPC nhiệm vụ môn phái
++ Nhiệm vụ ngày
++ Nhiệm vụ Mặc Thạch
++ Đào kho báu (Tự giám định, tự đào)
++ Thêm phím đánh (tab Chiến đấu)
++ Tự cừu sát, bảo vệ cừu sát (tab Tự vệ/PK)
+
+18/10/2025
+jxtdAuto 0.1.1:
++ Thêm tùy chọn giữ tiền khi lên bãi (tab Hành Trang -> Gửi tiền)
++ Sửa lỗi đôi khi không quay lại điểm cũ
++ Auto đã có thể dùng máu Tống Kim
++ Bản đồ nào không phù được thì auto sẽ chạy bộ, tránh đứng tại chỗ dùng phù liên tục
++ Sửa lỗi liên quan đến nghỉ trong thành
++ Gia hạn sử dụng từ 16h 18/10/2025 đến 16h 28/10/2025
+
+15/10/2025
+jxtdAuto 0.1.0+:
++ Thêm Hiển thị 'Cấp/EXP'
++ Tùy chọn sửa trang bị trên bãi
++ Phần luyện công tìm quái hợp lý hơn, thêm tùy chọn Đánh lẻ, bỏ bán kính di chuyển
++2 kỹ năng điều kiện 'MP bản thân (%) >' và 'MP bản thân (%) <' sẽ  hoán đổi cho nhau khi đạt điều kiện (chuyên dùng cho TN luyện 2 skill)
++ Sửa lỗi giữ trang bị Mặc Thạch bị lệch ngũ hành
++ Sửa lỗi không tìm thấy 1 số NPC trong nhiệm vụ môn phái
++ Sửa lỗi lên tầng Thiết Tháp Biện Kinh
+
+11/10/2025
+jxtdAuto 0.1.0:
++ Thêm tính năng quây quái (tab Luyện công)
++ Thêm bản đồ mua thuốc Đào Hoa Nguyên
++ Sửa lỗi đối thoại tạp hóa Long Tuyền Thôn
++ Sửa liên kết map Thiên Tầm Tháp & Động Đình Hồ
++ Thêm tính năng làm nhiệm vụ môn phái, đào kho báu (chưa hoàn chỉnh)
++ Sửa lỗi dùng tiên thảo lộ và ngọc lộ hoàn
++ Sửa lỗi không dùng Hồi Thành Phù 20 và 50 lần
++ Sửa một số lỗi
+Tiếp tục test miễn phí từ 17h 11/10/2025 -> 17h 18/10/2025
+
+27/9/2025
+jxtdAuto 0.0.9:
++ Thêm tính năng tự vệ (tab Đối thủ)
++ Thử nghiệm thành viên không đánh lẻ, chỉ đánh khi có mặt đội trưởng (luyện công), nếu không phù hợp thì sẽ tách tùy chọn.
++ Lọc trang bị trong túi hành trang
++ Thêm map Thanh Loa Đảo, Trúc Ti động, Tường Vân động, Lưu Tiên động, ... và sửa lỗi liên kết một số map 9x.
++ Thêm Tiêu Dao Phù vào hệ thống tìm đường
++ Sửa lỗi không buff bản thân khi đang theo sau
++ Thêm đánh theo đội trưởng, chuyển PK theo đội trưởng
++ Thêm tính năng tự đóng cửa sổ game bị treo quá 15s, và login lại nếu các bạn sử dụng tính năng autologin.
++ Lưu cấu hình mỗi khi click Áp dụng, tránh mất cấu hình
++ Thay đổi một số điều kiện logic, nếu auto hoạt động ko đúng các bạn report lỗi giùm mình nhé.
++ Để mọi người được trải nghiệm game tốt hơn, bản 0.0.9 sẽ giới hạn 16 acc
+
+23/9/2025
+jxtdAuto 0.0.8:
++ Sửa lỗi lọc đồ kết hợp
++ Sửa lỗi treo & crash ko rõ lý do
++ Thêm đi Xa Phu "Những nơi đã qua"
++ Thêm Chọn tất cả/Bỏ chọn tất cả (Lọc trang bị)
++ Sửa lỗi ghi cấu hình
++ Trang bị khóa auto sẽ ko vứt bỏ
++ Sửa lỗi độ bền = 0
++ Thêm vài thuộc tính mới vào bảng lọc trang bị
+Các bạn tải ở link dưới comment nhé, test free, không cần đăng ký.
+
+20/9/2025
+jxtdAuto 0.0.7:
++ Có thể thêm nhân vật vào danh sách mà không cần phải login (click chuột phải lên danh sách nhân vật, chọn Thêm)
++ Thêm bản đồ lưu rương Nam Nhạc Trấn
++ Thêm tính năng hiển thị cửa sổ game bị treo (thử nghiệm)
++ Thêm tùy chọn lên ngựa khi ở chế độ luyện công (train), tab Luyện công
++ Thêm tùy chọn Sửa trang bị (tab Hành trang)
++ Sửa một số lỗi cả to lẫn nhỏ
+
+18/9/2025
+jxtdAuto 0.06:
++ Cập nhật theo game
++ Thêm tính năng save/load bảng thuộc tính lọc trang bị
++ Sửa lỗi không mua Ngọc Lộ Hoàn
++ Thêm bản đồ mua thuốc đảo tẩy tủy (nhớ cất phù vào rương)
++ Thêm lọc đồ nâng cao theo hệ, giới tính, cấp, ....
++ Sửa lỗi bản đồ lưu rương Dương Châu
++ Thêm sử dụng hồi thành phù vô hạn (ưu tiên)
+
+
+17/9/2025
+jxtdAuto 0.0.5:
++Thêm bản đồ mua thuốc đảo tẩy tủy (nhớ cất phù vào rương)
++ Thêm lọc đồ nâng cao theo hệ, giới tính, cấp, ....
++ Sửa lỗi bản đồ lưu rương Dương Châu
++Thêm sử dụng hồi thành phù vô hạn (ưu tiên)
+
+16/9/2025
+jxtdAuto 0.0.4:
++ Cập nhật serverlist
++ Sửa một số lỗi để chạy ổn định hơn
++ Vẫn dùng bản gamecl.exe cũ (các bạn lưu ý).
++ Phần lọc đồ thêm giá trị max, các bạn nhớ sửa thành 9999
+
+15/9/2025
+Đã có jxtdAuto 0.0.3:
++ Tự mua thuốc, mua phù (tạp hóa), tự sửa trang bị, bán trang bị, tự quay lại bãi, tự pt, tự lưu rương ...
++ Phím tắt:
+PAUSE: Tạm dừng/bỏ tạm dừng
+Ctrl + A: Bật/tắt nhặt vật phẩm
+Ctrl + F: Bật/tắt tự đánh
+Ctrl + E: Bật/tắt theo sau
+Ctrl + P: Chuyến chế độ hoạt động PvP/train
+Ctrl + N: Bật/tắt bỏ quái thường
+
+13/9/2025
+jxtdAuto 0.0.2:
++ Luyện công theo tọa độ
++ Có thể sử dụng TTL, Ngọc Lộ Hoàn (tab Hành trang -> Tự sử dụng vật phẩm)
++ Tab Phục hồi: ...
+
+22/8/2025
+jxtdauto 0.0.1:
++ Giao diện tùy chỉnh, có dạng đầy đủ và dạng rút gọn. Dạng đầy đủ có hiển thị minimap, có thể kéo giãn tùy ý
++ AutoLogin tích hợp, có hỗ trợ sandboxie, proxy
++ Hệ thống tìm đường thông minh, có thể đi tới mọi ngóc ngách, có hỗ trợ thần hành phù và tiêu dao phù.
++ AutoTrain tự lên bãi, tự quây quái, tự đánh trả hoặc chuyển pt (đổi màu) khi bị đồ sát, chết lại lên hoặc đứng trong thành (tùy chọn), nhặt, lọc đồ, bán hoặc rã.
++ AutoPK đánh ưu tiên theo khoảng cách, môn phái, danh sách, danh hiệu, lượng máu, đánh theo đội trưởng, boss, đánh theo chỉ định click chuột ... chuyển pk theo đội trưởng, buff bùa thông minh, có thể đánh tự động hoặc gán phím. Không (ít) chiếm chuột. Theo sau không cần pt, chỉ cần cùng máy.
++ AutoBuff: Tự buff skill hỗ trợ khi gần hết (thời gian trừ lùi), buff cho đồng đội, tự chuyển vòng sáng Nga My theo thời gian
++ AutoTask: Nhiệm vụ tân thủ, hàng ngày, môn phái, Mặc Thạch ...
++ Căn chỉnh UI cho độ phân giải 1080p và 2K
