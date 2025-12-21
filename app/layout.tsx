@@ -41,10 +41,11 @@ export const metadata: Metadata = {
     siteName: "jxtdAuto",
     images: [
       {
-        url: "/og-image.png", // Bạn cần tạo file này với kích thước 1200x630px
+        url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.vercel.app"}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "jxtdAuto - Auto cho Võ Lâm Truyền Kỳ 2.0",
+        type: "image/png",
       },
     ],
   },
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "jxtdAuto",
     description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0",
-    images: ["/og-image.png"], // Sử dụng cùng hình với Open Graph
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.vercel.app"}/og-image.png`],
     creator: "@jxtdAuto", // Thay bằng Twitter handle thực tế nếu có
   },
   robots: {
