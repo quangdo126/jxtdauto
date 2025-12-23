@@ -12,106 +12,102 @@ const menuItems = [
     title: "Bắt đầu",
     icon: Play,
     items: [
-      { title: "Giới thiệu", href: "/huong-dan" },
-      { title: "Cài đặt", href: "/huong-dan/cai-dat" },
-      { title: "Cập nhật", href: "/huong-dan/cap-nhat" },
-      { title: "Kích hoạt License", href: "/huong-dan/kich-hoat" },
-      { title: "Phím tắt", href: "/huong-dan/phim-tat" },
+      { title: "Giới thiệu", href: "/" },
+      { title: "Cài đặt", href: "/cai-dat" },
+      { title: "Cập nhật", href: "/cap-nhat" },
+      { title: "Kích hoạt License", href: "/kich-hoat" },
+      { title: "Phím tắt", href: "/phim-tat" },
     ],
   },
   {
     title: "Tab Cơ bản",
     icon: Settings,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-co-ban/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-co-ban/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Tổ đội",
     icon: Users,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-to-doi/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-to-doi/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Luyện công",
     icon: PiggyBank,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-luyen-cong/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-luyen-cong/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Phục hồi",
     icon: Heart,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-phuc-hoi/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-phuc-hoi/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Hành trang",
     icon: Package,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-hanh-trang/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-hanh-trang/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Đối thủ",
     icon: Shield,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-doi-thu/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-doi-thu/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Chiến đấu",
     icon: Sword,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-chien-dau/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-chien-dau/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Tự vệ/PK",
     icon: ShieldAlert,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-tu-ve-pk/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-tu-ve-pk/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Tiện ích",
     icon: Wrench,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-tien-ich/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-tien-ich/cach-cau-hinh" },
     ],
   },
   {
     title: "Tab Đăng nhập",
     icon: LogIn,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/tab-dang-nhap/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/tab-dang-nhap/cach-cau-hinh" },
     ],
   },
   {
     title: "Sandboxie & Proxy",
     icon: Network,
     items: [
-      { title: "Cách cấu hình", href: "/huong-dan/sandboxie-proxy/cach-cau-hinh" },
+      { title: "Cách cấu hình", href: "/sandboxie-proxy/cach-cau-hinh" },
     ],
   },
   {
     title: "Khắc phục sự cố",
     icon: FileText,
     items: [
-      { title: "Lỗi thường gặp", href: "/huong-dan/loi-thuong-gap" },
-      { title: "Câu hỏi thường gặp", href: "/huong-dan/faq" },
-      { title: "Báo lỗi", href: "/huong-dan/bao-loi" },
+      { title: "Lỗi thường gặp", href: "/loi-thuong-gap" },
+      { title: "Câu hỏi thường gặp", href: "/faq" },
+      { title: "Báo lỗi", href: "/bao-loi" },
     ],
   },
 ]
 
-export default function HuongDanLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export function WikiLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
   
   // Tìm mục chứa trang hiện tại để tự động expand

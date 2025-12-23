@@ -1,142 +1,260 @@
-import Image from "next/image"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Gamepad2, Shield, Zap, Users } from "lucide-react"
+import Image from "next/image"
 
 export default function Home() {
   return (
-    <div className="flex flex-col">
-      {/* Hero Section */}
-      <section className="container py-20 md:py-32">
-        <div className="flex flex-col items-center gap-8 text-center">
-          <div className="relative mb-8">
+    <div className="container py-12">
+      <div className="mx-auto max-w-4xl">
+        <div className="prose prose-slate dark:prose-invert max-w-none">
+          <h1 className="mb-4 text-2xl font-bold">Hướng dẫn sử dụng</h1>
+          <p className="mb-8 text-lg text-muted-foreground">
+            Chào mừng đến với tài liệu hướng dẫn sử dụng <strong>jxtdAuto</strong> - auto cho game <strong>Võ Lâm Truyền Kỳ 2.0</strong>.
+            Tài liệu này sẽ giúp bạn làm quen và sử dụng hiệu quả các tính năng
+            của auto.
+          </p>
+
+          <div className="mb-8 flex">
             <Image
               src="/vltt2pc.webp"
-              alt="jxtdAuto"
+              alt="Võ Lâm Truyền Kỳ 2.0"
               width={200}
               height={200}
-              className="rounded-lg shadow-2xl"
-              priority
+              className="rounded-lg shadow-lg"
             />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-6xl md:text-7xl">
-            jxtdAuto
-          </h1>
-          <p className="max-w-[700px] text-lg text-muted-foreground md:text-xl">
-            Auto toàn diện cho game <strong>Võ Lâm Truyền Kỳ 2.0</strong>, giúp bạn chơi game hiệu quả hơn
-            với các tính năng tự động thông minh và an toàn.
-          </p>
-          <div className="flex flex-col gap-4 md:flex-row">
-            <Button size="lg" asChild>
-              <Link href="/mua-license">
-                Mua License
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link href="/huong-dan">Hướng dẫn sử dụng</Link>
-            </Button>
+
+          <div className="space-y-8">
+            <section>
+              <h2 className="mb-4 text-2xl font-semibold">Bắt đầu nhanh</h2>
+              <p className="mb-4 text-muted-foreground">
+                Để bắt đầu sử dụng jxtdAuto, bạn cần đọc kỹ và thực hiện các bước sau:
+              </p>
+              <ol className="ml-6 list-decimal space-y-2 text-muted-foreground">
+                <li>
+                  <Link
+                    href="/cai-dat"
+                    className="text-primary hover:underline"
+                  >
+                    Tải và cài đặt auto
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/cap-nhat"
+                    className="text-primary hover:underline"
+                  >
+                    Cập nhật auto
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/kich-hoat"
+                    className="text-primary hover:underline"
+                  >
+                    Kích hoạt license key
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/phim-tat"
+                    className="text-primary hover:underline"
+                  >
+                    Phím tắt
+                  </Link>
+                </li>
+              </ol>
+            </section>
+
+            <section>
+              <h2 className="mb-4 text-2xl font-semibold">
+                Các tính năng chính
+              </h2>
+              <div className="space-y-4">
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-co-ban/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Cơ bản
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Các thiết lập cơ bản và cấu hình chính của auto.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-to-doi/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Tổ đội
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Quản lý và cấu hình tổ đội trong game.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-luyen-cong/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Luyện công
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Tự động luyện công và nâng cấp nhân vật.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-phuc-hoi/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Phục hồi
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Tự động phục hồi HP/MP, sử dụng TĐP và kỹ năng hỗ trợ.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-hanh-trang/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Hành trang
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Quản lý hành trang, lưu rương, mua và sử dụng vật phẩm.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-doi-thu/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Đối thủ
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Cấu hình đối thủ, ưu tiên và bỏ qua mục tiêu.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-chien-dau/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Chiến đấu
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Cấu hình kỹ năng chiến đấu.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-tu-ve-pk/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Tự vệ/PK
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Tự động tự vệ và PK khi cần thiết.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-tien-ich/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Tiện ích
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Các tính năng tiện ích và công cụ hỗ trợ.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/tab-dang-nhap/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Tab Đăng nhập
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Tự động đăng nhập và quản lý tài khoản.
+                  </p>
+                </div>
+                <div className="rounded-lg border p-4">
+                  <h3 className="mb-2 text-xl font-semibold">
+                    <Link
+                      href="/sandboxie-proxy/cach-cau-hinh"
+                      className="text-primary hover:underline"
+                    >
+                      Sandboxie & Proxy
+                    </Link>
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Cấu hình Sandboxie và Proxy để chạy nhiều cửa sổ game.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="mb-4 text-2xl font-semibold">
+                Cần hỗ trợ thêm?
+              </h2>
+              <p className="mb-4 text-muted-foreground">
+                Nếu bạn gặp bất kỳ vấn đề nào hoặc cần hỗ trợ thêm, vui lòng:
+              </p>
+              <ul className="ml-6 list-disc space-y-2 text-muted-foreground">
+                <li>
+                  Xem phần{" "}
+                  <Link
+                    href="/loi-thuong-gap"
+                    className="text-primary hover:underline"
+                  >
+                    Lỗi thường gặp
+                  </Link>
+                </li>
+                <li>
+                  Kiểm tra{" "}
+                  <Link
+                    href="/faq"
+                    className="text-primary hover:underline"
+                  >
+                    Câu hỏi thường gặp
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/lien-he"
+                    className="text-primary hover:underline"
+                  >
+                    Liên hệ với chúng tôi
+                  </Link>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
-      </section>
-
-      {/* Features Section */}
-      <section className="container py-16">
-        <h2 className="mb-12 text-center text-3xl font-bold">
-          Tính năng nổi bật
-        </h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          <div className="flex flex-col items-center gap-4 rounded-lg border p-6 text-center">
-            <div className="rounded-full bg-primary/10 p-4">
-              <Zap className="h-8 w-8 text-primary" />
-            </div>
-            <h3 className="text-xl font-semibold">Tự động thông minh</h3>
-            <p className="text-muted-foreground">
-              Auto làm nhiệm vụ, auto luyện công, auto PK, tất cả trong một, thông minh và hiệu quả
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center gap-4 rounded-lg border p-6 text-center">
-            <div className="rounded-full bg-primary/10 p-4">
-              <Shield className="h-8 w-8 text-primary" />
-            </div>
-            <h3 className="text-xl font-semibold">An toàn và bảo mật</h3>
-            <p className="text-muted-foreground">
-              Auto được thiết kế với các biện pháp bảo mật tốt, giúp tài khoản
-              của bạn luôn an toàn
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center gap-4 rounded-lg border p-6 text-center">
-            <div className="rounded-full bg-primary/10 p-4">
-              <Gamepad2 className="h-8 w-8 text-primary" />
-            </div>
-            <h3 className="text-xl font-semibold">Dễ sử dụng</h3>
-            <p className="text-muted-foreground">
-              Giao diện trực quan, dễ sử dụng, phù hợp cho cả người dùng mới bắt đầu lẫn lâu năm
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center gap-4 rounded-lg border p-6 text-center">
-            <div className="rounded-full bg-primary/10 p-4">
-              <Users className="h-8 w-8 text-primary" />
-            </div>
-            <h3 className="text-xl font-semibold">Hỗ trợ 24/7</h3>
-            <p className="text-muted-foreground">
-              Chúng tôi và cộng đồng người dùng luôn sẵn sàng giúp đỡ bạn khi bạn cần vào mọi lúc
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section className="container py-16">
-        <div className="grid gap-12 md:grid-cols-2 md:items-center">
-          <div>
-            <h2 className="mb-4 text-3xl font-bold">Về auto</h2>
-            <p className="mb-4 text-muted-foreground">
-              <strong>jxtdAuto</strong> là auto được phát triển bởi đội ngũ có kinh nghiệm trong lĩnh vực auto game. Auto được thiết kế đặc biệt cho game <strong>Võ Lâm Truyền Kỳ 2.0</strong>.
-            </p>
-            <p className="mb-4 text-muted-foreground">
-              Auto giúp bạn tối ưu hóa thời gian chơi game, tự động hóa các tác vụ lặp đi lặp lại,
-              và nâng cao trải nghiệm chơi game một cách đáng kể.
-            </p>
-            <p className="text-muted-foreground">
-              Với công nghệ hiện đại và cập nhật thường xuyên, chúng tôi luôn cố gắng mang đến
-              cho bạn giải pháp tốt nhất.
-            </p>
-          </div>
-          <div className="relative rounded-lg border overflow-hidden">
-            <Image
-              src="/auto-ui.png"
-              alt="Giao diện jxtdAuto"
-              width={800}
-              height={600}
-              className="w-full h-auto object-contain"
-              priority
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="container py-16">
-        <div className="rounded-lg border bg-muted/50 p-12 text-center">
-          <h2 className="mb-4 text-3xl font-bold">
-            Sẵn sàng trải nghiệm?
-          </h2>
-          <p className="mb-8 text-muted-foreground">
-            Tải auto ngay và khám phá các tính năng của jxtdAuto
-          </p>
-            <Button size="lg" asChild>
-              <Link href="/mua-license">
-                Xem gói license
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-        </div>
-      </section>
+      </div>
     </div>
   )
 }
-

@@ -53,7 +53,7 @@ export default function TabCoBanCachCauHinhPage() {
                   </li>
                   <li>
                     <strong className="text-foreground">Tự động tổ đội:</strong> dùng để tự lập đội với các tài khoản khác trong chế độ auto PK. Cấu hình tổ đội sẽ được điều chỉnh trong{" "}
-                    <Link href="/huong-dan/tab-to-doi/cach-cau-hinh" className="text-primary hover:underline">
+                    <Link href="/tab-to-doi/cach-cau-hinh" className="text-primary hover:underline">
                       tab Tổ đội
                     </Link>.
                   </li>

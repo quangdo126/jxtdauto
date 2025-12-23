@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Facebook, MessageCircle, Youtube, Fan } from "lucide-react"
+import { Facebook, MessageCircle, Fan, Home } from "lucide-react"
 
 export default function LienHePage() {
   return (
@@ -16,20 +16,20 @@ export default function LienHePage() {
           <div className="rounded-lg border p-6">
             <div className="mb-4 flex items-center gap-3">
               <div className="rounded-full bg-primary/10 p-3">
-                <Facebook className="h-6 w-6 text-primary" />
+                <Home className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold">Facebook</h3>
+              <h3 className="text-xl font-semibold">Trang chủ</h3>
             </div>
             <p className="mb-4 text-muted-foreground">
-              Theo dõi và tương tác với chúng tôi trên Facebook
+              Truy cập trang chủ chính thức của wjxtdAuto
             </p>
             <Button variant="outline" asChild>
               <a
-                href="https://www.facebook.com/kvtAuto"
+                href="https://www.wjxtdauto.net/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Truy cập Facebook
+                Truy cập trang chủ
               </a>
             </Button>
           </div>
@@ -58,20 +58,20 @@ export default function LienHePage() {
           <div className="rounded-lg border p-6">
             <div className="mb-4 flex items-center gap-3">
               <div className="rounded-full bg-primary/10 p-3">
-                <Youtube className="h-6 w-6 text-primary" />
+                <Facebook className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold">YouTube</h3>
+              <h3 className="text-xl font-semibold">Facebook</h3>
             </div>
             <p className="mb-4 text-muted-foreground">
-              Xem các video hướng dẫn và cập nhật mới nhất trên YouTube
+              Theo dõi và tương tác với chúng tôi trên Facebook
             </p>
             <Button variant="outline" asChild>
               <a
-                href="#"
+                href="https://www.facebook.com/kvtAuto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Truy cập YouTube
+                Truy cập Facebook
               </a>
             </Button>
           </div>
@@ -88,7 +88,7 @@ export default function LienHePage() {
             </p>
             <Button variant="outline" asChild>
               <a
-                href="#"
+                href="https://www.youtube.com/watch?v=oHg5SJYRHA0"
                 target="_blank"
                 rel="noopener noreferrer"
               >

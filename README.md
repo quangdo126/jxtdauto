@@ -1,6 +1,6 @@
-# jxtdAuto - Website
+# jxtdAuto Wiki
 
-Website giới thiệu, bán và hướng dẫn sử dụng cho **jxtdAuto** - auto cho game **Võ Lâm Truyền Kỳ 2.0**.
+Website hướng dẫn sử dụng cho **jxtdAuto** - auto cho game **Võ Lâm Truyền Kỳ 2.0**.
 
 ## Công nghệ sử dụng
 
@@ -14,10 +14,7 @@ Website giới thiệu, bán và hướng dẫn sử dụng cho **jxtdAuto** - a
 
 ## Tính năng
 
-- ✅ Trang chủ giới thiệu sản phẩm với hero section và features
-- ✅ Trang Changelog hiển thị các phiên bản và cập nhật
-- ✅ Trang Mua License với các gói license khác nhau (Cơ bản, Nâng cao, Máy cày)
-- ✅ Trang Hướng dẫn với giao diện GitBook-style:
+- ✅ Trang Hướng dẫn (trang chủ) với giao diện GitBook-style:
   - Sidebar navigation với accordion (chỉ 1 mục mở tại một thời điểm)
   - Mobile-responsive với burger menu
   - Hướng dẫn chi tiết cho các tab: Cơ bản, Tổ đội, Luyện công, Phục hồi, Hành trang, Đối thủ, Chiến đấu, Tự vệ/PK, Tiện ích, Đăng nhập
@@ -49,12 +46,9 @@ npm run dev
 
 ```
 ├── app/                          # Next.js App Router
-│   ├── page.tsx                 # Trang chủ
 │   ├── layout.tsx               # Root layout
 │   ├── globals.css              # Global styles
 │   ├── changelog/               # Trang changelog
-│   │   └── page.tsx
-│   ├── mua-license/             # Trang mua license
 │   │   └── page.tsx
 │   ├── lien-he/                 # Trang liên hệ
 │   │   └── page.tsx
@@ -105,13 +99,6 @@ npm run dev
 - **Mobile Menu**: Burger menu với overlay cho màn hình nhỏ
 - **Auto-expand**: Tự động mở mục chứa trang hiện tại
 - **Active State**: Highlight trang đang xem
-
-### Trang Mua License
-
-- Hiển thị 3 gói license với giá theo HWID và bang hội
-- Thông tin thanh toán chi tiết
-- QR code chuyển khoản
-- Thông báo về giai đoạn thử nghiệm miễn phí
 
 ### Trang Changelog
 

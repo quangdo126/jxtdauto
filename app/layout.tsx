@@ -1,16 +1,17 @@
 import type { Metadata } from "next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Navbar } from "@/components/navbar"
+import { WikiWrapper } from "@/components/wiki-wrapper"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
 
 export const metadata: Metadata = {
   title: {
-    default: "jxtdAuto",
-    template: "%s | jxtdAuto",
+    default: "jxtdAuto Wiki",
+    template: "%s | jxtdAuto Wiki",
   },
-  description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0",
+  description: "jxtdAuto Wiki - Hướng dẫn sử dụng auto cho game Võ Lâm Truyền Kỳ 2.0",
   keywords: [
     "jxtdAuto",
     "Võ Lâm Truyền Kỳ 2.0",
@@ -37,9 +38,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "vi_VN",
     url: "/",
-    title: "jxtdAuto",
-    description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0",
-    siteName: "jxtdAuto",
+    title: "jxtdAuto Wiki",
+    description: "jxtdAuto Wiki - Hướng dẫn sử dụng auto cho game Võ Lâm Truyền Kỳ 2.0",
+    siteName: "jxtdAuto Wiki",
     images: [
       {
         url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.com"}/og-image.png`,
@@ -52,8 +53,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "jxtdAuto",
-    description: "jxtdAuto - Auto toàn diện cho game Võ Lâm Truyền Kỳ 2.0",
+    title: "jxtdAuto Wiki",
+    description: "jxtdAuto Wiki - Hướng dẫn sử dụng auto cho game Võ Lâm Truyền Kỳ 2.0",
     images: [`${process.env.NEXT_PUBLIC_SITE_URL || "https://jxtdauto.com"}/og-image.png`],
     creator: "@jxtdAuto", // Thay bằng Twitter handle thực tế nếu có
   },
@@ -70,11 +71,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.ico" },
-      { url: "/logo.png", type: "image/png" },
+      { url: "/vltt2pc.webp", type: "image/webp" },
     ],
     apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }, // Bạn cần tạo file này
+      { url: "/vltt2pc.webp", sizes: "180x180", type: "image/webp" },
     ],
   },
   manifest: "/site.webmanifest", // Bạn có thể tạo file này sau
@@ -88,7 +88,7 @@ export default function RootLayout({
   return (
     <html lang="vi" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/vltt2pc.webp" type="image/webp" />
       </head>
       <body>
         <ThemeProvider
@@ -98,7 +98,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="min-h-screen">{children}</main>
+          <WikiWrapper>
+            <main className="min-h-screen">{children}</main>
+          </WikiWrapper>
           <SpeedInsights />
           <Analytics />
         </ThemeProvider>

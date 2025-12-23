@@ -10,11 +10,9 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const navItems = [
-  { href: "/", label: "Trang chủ" },
-  { href: "/mua-license", label: "Mua License" },
-  { href: "/lien-he", label: "Liên hệ" },
+  { href: "/", label: "Wiki" },
   { href: "/changelog", label: "Changelog" },
-  { href: "/huong-dan", label: "Hướng dẫn" },
+  { href: "/lien-he", label: "Liên hệ" },
 ]
 
 export function Navbar() {
@@ -32,13 +30,13 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image
-            src="/logo.png"
-            alt="jxtdAuto"
+            src="/vltt2pc.webp"
+            alt="jxtdAuto Wiki"
             width={40}
             height={40}
             className="rounded"
           />
-          <span className="text-xl font-bold">jxtdAuto</span>
+          <span className="text-xl font-bold">jxtdAuto Wiki</span>
         </Link>
         
         {/* Desktop Menu */}
@@ -49,7 +47,7 @@ export function Navbar() {
               href={item.href}
               className={cn(
                 "text-sm font-medium transition-colors hover:text-primary",
-                pathname === item.href
+                pathname === item.href || (item.href === "/" && pathname === "/")
                   ? "text-primary"
                   : "text-muted-foreground"
               )}
@@ -59,7 +57,7 @@ export function Navbar() {
           ))}
           
           <Button size="sm" asChild className="dark:text-white">
-            <a href="https://www.mediafire.com/file/0lxtebj77t5k0mx/jxtdAuto0.1.5%2B%2B.zip/file" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.wjxtdauto.net/" target="_blank" rel="noopener noreferrer">
               <Download className="mr-2 h-4 w-4 dark:text-white" />
               Tải Auto
             </a>
@@ -116,7 +114,7 @@ export function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
                 className={cn(
                   "rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-accent",
-                  pathname === item.href
+                  pathname === item.href || (item.href === "/" && pathname === "/")
                     ? "bg-accent text-foreground"
                     : "text-muted-foreground"
                 )}
@@ -125,7 +123,7 @@ export function Navbar() {
               </Link>
             ))}
             <Button className="mt-2 dark:text-white" asChild>
-              <a href="https://www.mediafire.com/file/0lxtebj77t5k0mx/jxtdAuto0.1.5%2B%2B.zip/file" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+              <a href="https://www.wjxtdauto.net/" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
                 <Download className="mr-2 h-4 w-4 dark:text-white" />
                 Tải Auto
               </a>
