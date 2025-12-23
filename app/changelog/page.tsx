@@ -2,6 +2,19 @@ import { Separator } from "@/components/ui/separator"
 
 const changelog = [
   {
+    version: "0.1.6",
+    date: "2025-12-23",
+    changes: [
+      "Cập nhật theo game 23/12/2025",
+      "Sửa lỗi chia sẻ vật phẩm",
+      "Sửa lỗi theo sau đội trưởng đội khác",
+      "Thêm thuốc lak Đại Lực, Nội Công, ... vào danh sách sử dụng",
+      "Thêm Báo danh Tống Kim, Đi thuyền Phong Lăng Độ, Bán hàng (bày bán)",
+      "Giao diện thêm cột hiển thị ô trống hành trang/túi",
+      "Thêm vài dòng thuộc tính lọc trang bị gộp, nhiệm vụ",
+    ],
+  },
+  {
     version: "0.1.5++",
     date: "2025-12-21",
     changes: [
