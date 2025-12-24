@@ -67,7 +67,7 @@ export default function TabTienIchCachCauHinhPage() {
                 </div>
                 <div className="ml-3">
                   <p className="text-sm text-yellow-800 dark:text-yellow-300">
-                    <strong>Lưu ý:</strong> Luôn luôn click chọn <code className="rounded bg-yellow-100 px-1.5 py-0.5 text-sm font-mono dark:bg-yellow-900/50">Áp dụng</code> sau khi thay đổi bất cứ mục nào để auto nhận diện được thay đổi mới, nếu không bạn sẽ phải thay đổi lại mục đó từ đầu!
+                    <strong>Lưu ý:</strong> Luôn click chọn <code className="rounded bg-yellow-100 px-1.5 py-0.5 text-sm font-mono dark:bg-yellow-900/50">Áp dụng</code> sau khi thay đổi bất cứ mục nào để auto nhận diện được thay đổi mới, nếu không bạn sẽ phải thay đổi lại mục đó từ đầu!
                   </p>
                 </div>
               </div>
