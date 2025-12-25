@@ -6,7 +6,7 @@ export default function TabCoBanCachCauHinhPage() {
     <div className="container py-12">
       <div className="mx-auto max-w-4xl">
         <div className="prose prose-slate dark:prose-invert max-w-none">
-          <h1 className="mb-4 text-2xl font-bold">Tab Cơ bản - Cách cấu hình</h1>
+          <h1 className="mb-4 text-2xl font-bold">Tab Cơ bản</h1>
           
           <div className="space-y-6">
             <div>
