@@ -8,6 +8,7 @@ import { useTheme } from "next-themes"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import { WikiSearch } from "@/components/wiki-search"
 
 const navItems = [
   { href: "/", label: "Wiki" },
@@ -38,6 +39,11 @@ export function Navbar() {
           />
           <span className="text-xl font-bold">jxtdAuto Wiki</span>
         </Link>
+        
+        {/* Desktop Search */}
+        <div className="hidden flex-1 justify-center px-4 lg:flex">
+          <WikiSearch />
+        </div>
         
         {/* Desktop Menu */}
         <div className="hidden items-center space-x-6 lg:flex">
@@ -107,6 +113,9 @@ export function Navbar() {
       {mobileMenuOpen && (
         <div className="border-t lg:hidden">
           <div className="container flex flex-col space-y-2 py-4">
+            <div className="px-2 pb-2">
+              <WikiSearch />
+            </div>
             {navItems.map((item) => (
               <Link
                 key={item.href}
