@@ -12,7 +12,7 @@ export default function SandboxieProxyCachCauHinhPage() {
             <div>
               <h2 className="mb-4 text-xl font-semibold">Công dụng của Sandboxie và Proxy</h2>
               <p className="mb-4 text-muted-foreground">
-                Mặc định game giới hạn 8 cửa sổ mỗi hwid/ip, sử dụng Sandboxie và Proxy bạn có thể bypass được giới hạn này để chạy nhiều hơn 8 cửa sổ mỗi máy tính. Nếu bạn cấu hình đúng thì sẽ không có vấn đề gì xảy ra khi sử dụng.
+                Mặc định game giới hạn 8 cửa sổ mỗi HWID/IP, sử dụng Sandboxie và Proxy bạn có thể bypass được giới hạn này để chạy nhiều hơn 8 cửa sổ mỗi máy tính. Nếu bạn cấu hình đúng thì sẽ không có vấn đề gì xảy ra khi sử dụng.
               </p>
             </div>
 
@@ -42,7 +42,7 @@ export default function SandboxieProxyCachCauHinhPage() {
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.16.8/Sandboxie-Plus-x64-v1.16.8.exe
+                    Link tải
                   </a>
                 </li>
                 <li>
