@@ -21,7 +21,7 @@ export default function LienHePage() {
               <h3 className="text-xl font-semibold">Trang chủ</h3>
             </div>
             <p className="mb-4 text-muted-foreground">
-              Truy cập trang chủ chính thức của wjxtdAuto
+              Truy cập trang chủ chính thức của jxtdAuto
             </p>
             <Button variant="outline" asChild>
               <a
