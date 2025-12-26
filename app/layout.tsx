@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Navbar } from "@/components/navbar"
 import { WikiWrapper } from "@/components/wiki-wrapper"
+import { TitleHandler } from "@/components/title-handler"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css"
@@ -91,6 +92,7 @@ export default function RootLayout({
         <link rel="icon" href="/vltt2pc.webp" type="image/webp" />
       </head>
       <body>
+        <TitleHandler />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
