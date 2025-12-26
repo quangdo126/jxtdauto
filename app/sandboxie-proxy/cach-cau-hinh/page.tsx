@@ -212,23 +212,11 @@ export default function SandboxieProxyCachCauHinhPage() {
                 <div>
                   <h3 className="mb-4 text-lg font-semibold">Cách 2: Không tốn phí</h3>
                   <p className="mb-4 text-muted-foreground">
-                    Với cách dùng này bạn có thể sử dụng các phần mềm quản lý việc gán proxy sẵn có được chia sẻ rộng rãi trên internet. Lưu ý các phần mềm này đều sử dụng phần mềm nền là Proxifier để gán proxy, tuy nhiên chúng sẽ giúp bạn gán proxy cho từng PID thay vì chỉ theo tên file exe. Nếu bạn thêm profile thủ công vào Proxifier thì đây gần như là bất khả thi vì cần kiểm tra PID của từng cửa sổ riêng biệt và mỗi lần mở lại cửa sổ mới lại phải lấy lại PID mới, rất mất thời gian.
+                    Với cách dùng này bạn có thể sử dụng Proxifier để gán proxy cho các cửa sổ game. Cách làm ở đây là tạo rule để gán proxy cho từng PID, tuy nhiên việc này rất mất thời gian vì bạn phải kiểm tra PID của từng cửa sổ khi tạo rule và phải liên tục cập nhật chúng nếu cửa sổ game bị tắt và mở lại, vì vậy bạn có thể làm theo mẹo sau để có thể tạo rule một cách đơn giản hơn.
                   </p>
-
-                  <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 dark:bg-blue-950/20">
-                    <div className="flex items-start">
-                      <div className="flex-shrink-0">
-                        <svg className="h-5 w-5 text-blue-500" viewBox="0 0 20 20" fill="currentColor">
-                          <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                        </svg>
-                      </div>
-                      <div className="ml-3">
-                        <p className="text-sm text-blue-700 dark:text-blue-300">
-                          Sẽ có hướng dẫn trong thời gian sớm nhất.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  <p className="mb-4 text-muted-foreground">
+                    Cách làm: sao chép file gamecl.exe thành nhiều file với nhiều tên khác nhau như gamecl1.exe, gamecl2.exe, gamecl3.exe... vân vân. Sau đó trong tab Đăng nhập chúng ta sẽ trỏ đường dẫn đến những file này, ví dụ 8 cửa sổ đầu sẽ chọn đường dẫn đến file gamecl1.exe, 8 cửa sổ tiếp theo sẽ chọn đường dẫn đến file gamecl2.exe. Cuối cùng bạn chỉ cần thêm rule trong Proxifier một cách rất đơn giản bằng việc gán proxy cho các ứng dụng có tên gamecl1.exe, gamecl2.exe. Mình đã hướng dẫn khá chi tiết nên không có hình minh hoạ và các bạn cần nắm được cách sử dụng phần mềm Proxifier trước khi làm theo cách này.
+                  </p>
                 </div>
               </div>
             </div>
