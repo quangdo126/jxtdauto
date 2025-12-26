@@ -2,6 +2,25 @@ import { Separator } from "@/components/ui/separator"
 
 const changelog = [
   {
+    version: "0.1.6++",
+    date: "2025-12-24",
+    changes: [
+      "Sửa lỗi chia sẻ vật phẩm",
+      "Thêm tùy chọn 'Chỉ làm nhiệm vụ khi đủ vật phẩm'",
+    ],
+  },
+  {
+    version: "0.1.6+",
+    date: "2025-12-24",
+    changes: [
+      "Fix lỗi báo danh TK",
+      "Fix lỗi lưu rương sau khi đi TK & Phong Lăng Độ",
+      "Năng động có thể chọn riêng từng hoạt động (click phải lên Năng động, tab Cơ bản)",
+      "Thêm hẹn giờ Đào kho báu",
+      "Có kèm theo gamecl phù hợp với auto",
+    ],
+  },
+  {
     version: "0.1.6",
     date: "2025-12-23",
     changes: [

@@ -1,3 +1,16 @@
+24/12/2025
+jxtdAuto 0.1.6++:
++ Sửa lỗi chia sẻ vật phẩm
++ Thêm tùy chọn "Chỉ làm nhiệm vụ khi đủ vật phẩm"
+
+24/12/2025
+jxtdAuto 0.1.6+:
++ Fix lỗi báo danh TK
++ Fix lỗi lưu rương sau khi đi TK & Phong Lăng Độ
++ Năng động có thể chọn riêng từng hoạt động (click phải lên Năng động, tab Cơ bản)
++ Thêm hẹn giờ Đào kho báu
++ Có kèm theo gamecl phù hợp với auto
+
 21/12/2025
 jxtdAuto 0.1.5++:
 + Sửa lỗi buff miệt mài
