@@ -2,6 +2,23 @@ import { Separator } from "@/components/ui/separator"
 
 const changelog = [
   {
+    version: "0.1.7+",
+    date: "2025-12-28",
+    changes: [
+      "Sửa lỗi đôi khi không mua thuốc, tạp hóa",
+      "Đi thuyền giờ sẽ làm hậu cần (mua thuốc, sửa trang bị, cất tiền)",
+    ],
+  },
+  {
+    version: "0.1.7",
+    date: "2025-12-27",
+    changes: [
+      "Vẽ lại đường di chuyển cho auto ở map Nam Nhạc Trấn, Đại Lý, Thiên Vương Bang, Nga My, Ngũ Độc",
+      "Lưu rương sau khi đi TK, thuyền Phong Lăng Độ",
+      "Vài thứ lặt vặt không nhớ 🙂",
+    ],
+  },
+  {
     version: "0.1.6++",
     date: "2025-12-24",
     changes: [

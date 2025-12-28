@@ -1,3 +1,14 @@
+28/12/2025
+jxtdAuto 0.1.7+:
++ Sửa lỗi đôi khi không mua thuốc, tạp hóa
++ Đi thuyền giờ sẽ làm hậu cần (mua thuốc, sửa trang bị, cất tiền)
+
+27/12/2025
+jxtdAuto 0.1.7:
++ Vẽ lại đường di chuyển cho auto ở map Nam Nhạc Trấn, Đại Lý, Thiên Vương Bang, Nga My, Ngũ Độc
++ Lưu rương sau khi đi TK, thuyền Phong Lăng Độ
++ Vài thứ lặt vặt không nhớ 🙂
+
 24/12/2025
 jxtdAuto 0.1.6++:
 + Sửa lỗi chia sẻ vật phẩm
